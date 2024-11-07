@@ -1,27 +1,31 @@
+
 body {
-    font-family: 'Arial',sans-serif;
+    font-family: Arial, sans-serif;
     background:#f4f4f4;
     margin: 0;
     padding: 150px;
+    font-size: 15px;
 
 }
 .Resume-container{
     display:flex;
-    background-color: rgb(178, 211, 88);
-    width: 80%;
+    background-color:#73f1ff;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 25px rgba(0, 0, 0, 0.1);
 }
 .left-section {
-    background-color:#ff73e8;
+    background-color:rgb(245, 137, 245);
     color: black;
     padding: 20px;
     width: 35%;
     text-align:center;
     border-right:5px solid 
 }
-
+.left-section h3{
+    background-color:#f4f4f4;
+    box-shadow: 0 0 18px black;
+}
 .profile-picture {
     width: 150px;
     height: 150px;
@@ -43,11 +47,12 @@ h3 {
     font-size: 20px;
     padding: 2%;
     margin: 20px 0 10px;
-    color: rgba(125, 4, 101, 0.909);
+    color:black;
     border-radius: 10px;
     box-shadow:0 0 15px black;
     margin-top: 5%;
     margin-bottom: 5%;
+    background-color:#f4f4f4;
 }
 
 ul {
@@ -68,12 +73,31 @@ ul li{
 button {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 10px black;
     cursor: pointer;
     margin: top 10px ;
     font-size: 18px;
 }
 button:hover {
-    background-color: #ff73e8;
+    background-color: #73f1ff;
+}
 
+
+@media (max-width: 480px) {
+    .profile-picture {
+        width: 80px; /*smaller profile picture */
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 15px; /* Smaller heading for very small screens */
+    }
+
+    h3 {
+        font-size: 18px; /*subheading size */
+    }
+
+    body {
+        padding: 10px; /*padding for extra small screens */
+    }
 }
