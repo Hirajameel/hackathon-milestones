@@ -7,7 +7,7 @@ body{
 }
 form{
     margin:auto;
-    background-color:rgb(169, 241, 249);
+    background-color:rgb(231, 170, 59);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     padding: 20px;
@@ -16,7 +16,7 @@ form{
 
 h1{
     text-align:center;
-    color: black;
+    color:black ;
 }
 
 
@@ -25,7 +25,7 @@ fieldset{
     border-radius: 8px;
     padding: 20px;
     margin-bottom:20px;
-    background-color:#f8c6e9;
+    background-color:rgb(232, 200, 139);
 }
 legend{
     font-weight:bold ;
@@ -50,7 +50,7 @@ input,textarea{
 button{
     display: block;
     width:100% ;
-    background-color: rgb(245, 190, 227);
+    background-color: rgb(232, 200, 139);
     color: black;
     border: none;
     border-radius: 4px;
@@ -62,15 +62,15 @@ button{
     cursor: pointer;
 }
 button:hover{
-    color:purple;
+    color:#fff;
 }
 #resume-display{
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    border:2px solid lightpink;
+    border:2px solid rgb(232, 200, 139);
     border-radius: 8px;
-    background-color:rgb(169, 241, 249);
+    background-color:rgb(231, 170, 59);
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     outline: none;
 }
