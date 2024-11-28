@@ -3,59 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><b>Static Interactive Resume Builder</b></title>
+    <title>Static Interactive Resume Builder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Resume-container">
+    <div class="resume-container">
+        <!-- Left Section -->
         <div class="left-section">
-            <img src="profile.jpeg" alt="profile Picture" class="profile-picture">
+            <img src="profile.jpeg" alt="Profile Picture" class="profile-picture">
             <section id="Objective">
-                <h3 style="color:black;">Career Objective</h3>
-                <p style="text-align: justify;hyphens: auto;">A hard working individual looking for a challenging position where I can showcase my skills and contribute to the growth of the organization.
-                    .To secure a challenging role that utilizes my skills and experience to drive growth and innovation.</p>
+                <h3>Career Objective</h3>
+                <p>A driven individual looking to leverage my skills in web development, artificial intelligence, and emerging tech to add value to an innovative organization.</p>
             </section>
             <section id="Certification">
-                <h3 style="color: black;">Certification</h3>
-                <p><b>Artificial Intelligence, Web 3.0 & Metaverse:</b> Completed certification focusing on emerging technologies and their applications.</p>
+                <h3>Certification</h3>
+                <p><b>Artificial Intelligence, Web 3.0 & Metaverse:</b> Certified in AI and blockchain technologies, covering foundational and advanced concepts.</p>
+            </section>
+            <section id="Languages">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English (Fluent)</li>
+                    <li>Urdu (Native)</li>
+                </ul>
+            </section>
+            <section id="Hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Tech blogging</li>
+                    <li>Creative writing</li>
+                    <li>Photography</li>
+                    <li>Traveling</li>
+                    <li>Eating</li>
+                    
+                </ul>
             </section>
         </div>
+        
+        <!-- Right Section -->
         <div class="right-section">
-            <h1>Static Interactive Resume</h1>
-            <section id="personanl-info">
-                <h3>Personal Informaton</h3>
-                <p><b>Name:</b >Hira Jameel</p>
+            <h1>Hira Jameel</h1>
+            <p class="title"><b>Web Developer & AI Enthusiast</b></p>
+            <section id="personal-info">
+                <h3>Personal Information</h3>
+                <p><b>Email:</b> <a href="mailto:hirajamil738@gmail.com">hirajamil738@gmail.com</a></p>
                 <p><b>Phone:</b> 0123-456789</p>
-                <p><b>Email:</b> <a href="hirajamil@gmail.com">hirajamil738@gmail.com</a></p>
-                <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/hira-jameel-2a79102ba" target="_blank">www.LinkedIncom</a></p>
-
+                <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/hira-jameel-2a79102ba" target="_blank">LinkedIn Profile</a></p>
             </section>
             <section id="education">
                 <h3>Education</h3>
-                <p><b>Bachelors:</b>BSc (Engineering) From Karachi University</p>
-                <p><b>Bachelors Of Education:</b>B.Ed from (Allama Iqbal Open University)</p>
+                <p><b>Bachelor's:</b> BSc (Engineering) from Karachi University</p>
+                <p><b>B.Ed:</b> Allama Iqbal Open University</p>
             </section>
-            <section id="Skills">
+            <section id="skills">
                 <h3>Skills</h3>
                 <ul>
-                    <li>Ms Office</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Typescript</li>
-                    <li>Javascript</li>
-                    <li>Next.js</li>
-                    <li>Communication Skills</li>
+                    <li>HTML, CSS, JavaScript, TypeScript</li>
+                    <li>Next.js, React</li>
+                    <li>MS Office Suite</li>
+                    <li>Communication & Teamwork</li>
                 </ul>
             </section>
-            <section id="Work-Experience">
+            <section id="work-experience">
                 <h3>Work Experience</h3>
-                <p>Designed and developed multiple web applications using HTML,CSS,<br>TYPESCRIPT and JAVASCRIPT</p>
-
+                <p>Designed and developed multiple web applications using HTML,CSS,<br>TYPESCRIPT , JAVASCRIPT and NEXT.JS</p>
+                <ul>
+                    <li>Developed interactive web applications with HTML, CSS, JavaScript.</li>
+                    <li>Collaborated with team to improve website SEO and accessibility.</li>
+                </ul>
             </section>
-            <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+            <section id="projects">
+                <h3>Projects</h3>
+                <p><b>Interactive Resume Builder</b> - Created a responsive web app for generating interactive resumes with PDF export.</p>
+                <p><b>Personal Portfolio</b> - Built a dynamic portfolio using Next.js and React,with Tailwind CSS showcasing skills and projects.</p>
+                <p><b>Coffee Website</b> - Built coffee website using HTML and CSS showing skills</p>
+                <p><b>Multiweb Pages</b> - Built multiweb pages using Next.js showing skills with tailwind and custom CSS.</p>
+            </section>
+            <button id="toggle-skills">Hide/Show Skills</button>
+            <button id="download-pdf">Download as PDF</button>
+            <button id="toggle-theme">Toggle Dark Mode</button>
         </div>
     </div>
     <script src="script.js"></script>
-    
 </body>
-</html>
+</html> 
